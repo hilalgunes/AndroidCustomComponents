@@ -9,7 +9,7 @@ import androidx.appcompat.widget.AppCompatTextView
 /**
  * Created by Hilal Güneş on 18.04.2024
  */
-class Common {
+class Common() {
     fun createAndConfigurePopupItem(
         context: Context,
         title: String,
