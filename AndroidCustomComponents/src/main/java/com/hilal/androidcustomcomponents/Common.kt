@@ -35,4 +35,11 @@ class Common() {
         view.findViewById<AppCompatButton>(R.id.button).text = buttonText
 
     }
+
+    //hamburger menü gelicek
+    fun menuItem(context: Context){
+        val menu = LayoutInflater.from(context).inflate(R.layout.menu_item, null)
+
+
+    }
 }
